@@ -1,3 +1,10 @@
+/**
+ * @author [Tilak]
+ * @email [tpymca07@gmail.com]
+ * @create date 2019-10-28 11:25:05
+ * @modify date 2019-10-28 11:25:05
+ * @desc [Theme config consist the app level primary color and all themes config for app]
+ */
 import 'package:flutter/material.dart';
 import 'package:flutter_starter_kit/src/constants/colors.dart' as prefix0;
 

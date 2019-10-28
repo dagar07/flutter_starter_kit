@@ -1,3 +1,10 @@
+/**
+ * @author [Tilak]
+ * @email [tpymca07@gmail.com]
+ * @create date 2019-10-28 11:25:42
+ * @modify date 2019-10-28 11:25:42
+ * @desc [Colors that used whole the app]
+ */
 import 'package:flutter/material.dart';
 import 'package:flutter_starter_kit/src/utils/helpers.dart';
 
