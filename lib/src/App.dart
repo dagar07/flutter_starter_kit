@@ -10,7 +10,12 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_starter_kit/src/blocs/Authentication/bloc.dart';
 import 'package:flutter_starter_kit/src/pages/Pages.dart';
 
+import 'config/theme_config.dart';
+
 class App extends StatelessWidget {
+  /// theme data used to provide global colors
+  final ThemeData _themeData = buildAppTheme();
+
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
@@ -23,6 +28,7 @@ class App extends StatelessWidget {
       ],
       child: MaterialApp(
         title: 'Flutter & Bloc',
+        theme: _themeData,
         home: Pages(),
         // routes: AppRoutes(), // some other screen like login, global error modal, logout Modal
       ),
