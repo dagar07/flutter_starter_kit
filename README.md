@@ -1,7 +1,7 @@
 # flutter_starter_kit
 A flutter starter kit with bloc pattern to manage flutter app and updated with latest flutter version and bloc version 
 
-# Adding Bloc pattern for state management
+## Adding Bloc pattern for state management
   * Read more about [bloc](https://pub.dev/packages/bloc#-readme-tab-) (business logic components) pattern to manage this project
 
   * Must Read about [flutter_bloc](https://pub.dev/packages/flutter_bloc#-readme-tab-)
