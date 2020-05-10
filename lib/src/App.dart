@@ -21,7 +21,7 @@ class App extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider<AuthenticationBloc>(
-          builder: (context) => AuthenticationBloc()
+          create: (context) => AuthenticationBloc()
           ..add(AppStarted())
         ),
         // you can provide other global bloc here
